@@ -14,6 +14,7 @@ selected_user_name = st.sidebar.selectbox("Select a User", list(user_options.key
 user_id = user_options.get(selected_user_name)
 
 st.title("💪 Personal Fitness Tracker")
+st.write("Maanasa | 30056")
 st.markdown("Track your workouts, set goals, and connect with friends.")
 
 # --- CRUD: CREATE (New User) ---
